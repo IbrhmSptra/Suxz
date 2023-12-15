@@ -13,6 +13,10 @@ module.exports = {
         "nav-link": "#394360",
         "sub-secondary": "#44E4C9",
         f8: "#F8F8FF",
+        "bg-filter": "rgba(0,0,0,55%)",
+      },
+      backgroundImage: {
+        "bg-pattern": "url('../public/img/bg.png')",
       },
     },
   },
