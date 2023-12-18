@@ -843,11 +843,6 @@ video {
   background-color: rgb(248 248 255 / var(--tw-bg-opacity));
 }
 
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
 .bg-secondary {
   --tw-bg-opacity: 1;
   background-color: rgb(140 130 252 / var(--tw-bg-opacity));
@@ -924,11 +919,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .pl-10 {
   padding-left: 2.5rem;
 }
@@ -992,6 +982,11 @@ video {
   color: rgb(34 41 62 / var(--tw-text-opacity));
 }
 
+.text-nav-link {
+  --tw-text-opacity: 1;
+  color: rgb(57 67 96 / var(--tw-text-opacity));
+}
+
 .text-paragraphs {
   --tw-text-opacity: 1;
   color: rgb(34 40 49 / var(--tw-text-opacity));
@@ -1005,11 +1000,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-nav-link {
-  --tw-text-opacity: 1;
-  color: rgb(57 67 96 / var(--tw-text-opacity));
 }
 
 .bg-blend-overlay {
@@ -1044,30 +1034,17 @@ video {
   transition-duration: 500ms;
 }
 
-.duration-200 {
-  transition-duration: 200ms;
-}
-
-.duration-1000 {
-  transition-duration: 1000ms;
-}
-
-.hover\:bg-gray-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
 
 @media (min-width: 640px) {
-  .sm\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
   .sm\:mt-0 {
     margin-top: 0px;
+  }
+
+  .sm\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .sm\:block {
@@ -1086,10 +1063,6 @@ video {
     display: none;
   }
 
-  .sm\:max-w-0 {
-    max-width: 0rem;
-  }
-
   .sm\:max-w-fit {
     max-width: -moz-fit-content;
     max-width: fit-content;
@@ -1097,31 +1070,6 @@ video {
 
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .sm\:bg-red-400 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(248 113 113 / var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-gray-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-  }
-
-  .sm\:text-gray-400 {
-    --tw-text-opacity: 1;
-    color: rgb(156 163 175 / var(--tw-text-opacity));
-  }
-
-  .sm\:hover\:bg-secondary:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(140 130 252 / var(--tw-bg-opacity));
-  }
-
-  .sm\:hover\:text-white:hover {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
 
