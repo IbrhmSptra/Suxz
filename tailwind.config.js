@@ -6,6 +6,17 @@ module.exports = {
       fontFamily: {
         manrope: ["Manrope", "sans-serif"],
       },
+      gridTemplateAreas: {
+        "Companies-md": [
+          "item-1 item-2 item-3",
+          "item-4 item-5 item-6",
+          "item-7 item-7 item-8 item-8",
+        ],
+      },
+      gridTemplateColumns: {
+        layout: "1fr 1fr 1fr",
+      },
+
       colors: {
         secondary: "#8C82FC",
         headings: " #22293E",
@@ -20,5 +31,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@savvywombat/tailwindcss-grid-areas")],
 };
