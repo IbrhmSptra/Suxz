@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -15,16 +15,16 @@
 
 <body class="font-manrope overflow-x-hidden">
     <nav class="z-20  h-fit fixed top-0 w-full bg-white">
-        <div class="container flex justify-between px-[30px] py-4 items-center sm:mx-auto">
-            <div class="w-20 h-8 lg:w-28 lg:h-auto">
+        <div class="container flex justify-between px-[30px] py-4 items-center sm:mx-auto xl:px-[114px]">
+            <div class="w-20 h-8 lg:w-28 lg:h-auto xl:w-[135px]">
                 <img src="./img/logo.png" alt="Logo">
             </div>
             <div class="hidden sm:block lg:flex-1 lg:pl-[70px]">
                 <ul class=" text-xs flex gap-4 text-nav-link md:text-sm md:gap-8 lg:gap-[40px] lg:text-base">
-                    <li class="hover:underline"><a href="#">Home</a></li>
-                    <li class="hover:underline"><a href="#">Learnings</a></li>
-                    <li class="hover:underline"><a href="#">About Us</a></li>
-                    <li class="hover:underline"><a href="#">Testimonials</a></li>
+                    <li class="hover:underline"><a href="#home">Home</a></li>
+                    <li class="hover:underline"><a href="#learnings">Learnings</a></li>
+                    <li class="hover:underline"><a href="#about">About Us</a></li>
+                    <li class="hover:underline"><a href="#testimonials">Testimonials</a></li>
                 </ul>
             </div>
             <div class="gap-2 items-center hidden sm:flex">
@@ -48,10 +48,10 @@
         class="fixed top-0 -right-1/2 w-1/2 h-screen z-10 border transition-all duration-500 bg-white bg-opacity-80 backdrop-blur-md">
         <div class="container px-4 py-24 text-center flex flex-col justify-between h-full">
             <ul class="flex flex-col gap-8">
-                <li><a href="">Home</a></li>
-                <li><a href="">Learnings</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Testimonials</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#learnings">Learnings</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
             </ul>
             <div class="flex flex-col gap-4">
                 <a class="px-4 py-2 bg-secondary text-white font-semibold rounded-md" href="">Log In</a>
@@ -61,9 +61,10 @@
     </div>
 
     <!-- Herooo -->
-    <section class="pt-[70px]">
-        <div class="container py-8 px-[30px] items-center justify-between sm:mx-auto md:flex md:py-12 md:gap-4 ">
-            <div class="w-[320px] m-auto lg:w-[470px]">
+    <section id="home" class="pt-[70px]">
+        <div
+            class="container py-8 px-[30px] items-center justify-between sm:mx-auto md:flex md:py-12 md:gap-4 xl:px-[114px]">
+            <div class="w-[320px] m-auto lg:w-[470px] xl:w-[574px]">
                 <img src="./img//heroimg.png" alt="hero-img">
             </div>
             <div class="mt-8 md:flex-1 md:order-first">
@@ -93,8 +94,8 @@
     </section>
 
     <!-- Learningggsss -->
-    <section class="bg-f8">
-        <div class=" container py-20 px-[30px] sm:m-auto">
+    <section id="learnings" class="bg-f8">
+        <div class=" container py-20 px-[30px] sm:m-auto xl:px-[114px]">
             <div>
                 <p class="text-sm text-secondary font-bold md:text-base lg:text-lg">LEARNINGS</p>
                 <h1 class="text-2xl font-extrabold mt-2 text-headings md:text-3xl md:max-w-sm lg:text-4xl lg:max-w-md">
@@ -104,8 +105,8 @@
                 <p class="text-sm mt-3 text-paragraphs md:text-base lg:text-lg">Study and understand the material
                     class is more relaxed without time limit.</p>
             </div>
-            <div class="mt-8 sm:grid sm:grid-cols-2 gap-4 lg:justify-items-center">
-                <div id="card" class="bg-white p-6 rounded-md shadow-sm lg:max-w-xs">
+            <div class="mt-8 sm:grid sm:grid-cols-2 gap-4 lg:justify-items-center xl:grid-cols-4">
+                <div id="card" class="bg-white p-6 rounded-md shadow-sm lg:max-w-xs xl:max-w-none">
                     <div>
                         <img src="img/c-4.png" alt="">
                     </div>
@@ -171,9 +172,10 @@
     </section>
 
     <!-- Abouuutttt -->
-    <section>
-        <div class="container py-20 px-[30px] sm:m-auto md:flex md:items-center md:gap-10">
-            <div class="w-[320px] m-auto md:translate-y-[25px] lg:w-[480px] lg:translate-y-[50px]">
+    <section id="about">
+        <div class="container py-20 px-[30px] sm:m-auto md:flex md:items-center md:gap-10 xl:px-[114px] xl:items-start">
+            <div
+                class="w-[320px] m-auto md:translate-y-[25px] lg:w-[480px] lg:translate-y-[50px] xl:w-[600px] xl:translate-y-0">
                 <img src="./img/about_img.png" alt="hero-img">
             </div>
             <div class="flex-1">
@@ -212,8 +214,10 @@
 
         </div>
     </section>
+
+    <!-- Companies hiring partner -->
     <section class="bg-f8">
-        <div class="container py-10 px-[30px] sm:mx-auto">
+        <div class="container py-10 px-[30px] sm:mx-auto xl:px-[114px]">
             <div>
                 <h1 class="text-2xl font-extrabold mt-2 text-headings text-center md:text-3xl lg:text-4xl">Companies
                     That Recruit
@@ -255,8 +259,8 @@
     </section>
 
     <!-- Testimonialssss -->
-    <section>
-        <div class="container py-20 px-[30px] sm:m-auto">
+    <section id="testimonials">
+        <div class="container py-20 px-[30px] sm:m-auto xl:px-[114px]">
             <div>
                 <p class="text-sm text-secondary font-bold text-center md:text-base lg:text-lg">TESTIMONIALS</p>
                 <h1 class="text-headings text-2xl font-extrabold text-center mt-2 md:text-3xl lg:text-4xl">Our Alumni
@@ -271,9 +275,10 @@
                     taken our
                     class</p>
             </div>
-            <div class="grid grid-cols-2 mt-20 gap-x-4 gap-y-12 lg:justify-items-center">
-                <div class="px-4 py-8 text-center relative border border-secondary rounded-md lg:max-w-xs">
-                    <div class="w-full relative -top-1/3 flex justify-center">
+            <div class="grid grid-cols-2 mt-20 gap-x-4 gap-y-12 lg:justify-items-center xl:grid-cols-4 xl:gap-10">
+                <div
+                    class="px-4 py-8 text-center relative border border-secondary rounded-md lg:max-w-xs xl:max-w-none">
+                    <div class="w-full relative -top-1/3 flex justify-center xl:-top-[60px]">
                         <img class="w-12" src="./img/pp-1.png" alt="">
                     </div>
                     <h1 class="text-xl font-semibold text-headings -mt-6">Jason Todd</h1>
@@ -284,7 +289,7 @@
                         to understand..”</p>
                 </div>
                 <div class="px-4 py-8 text-center relative border border-secondary rounded-md lg:max-w-xs">
-                    <div class="w-full relative -top-1/3 flex justify-center">
+                    <div class="w-full relative -top-1/3 flex justify-center xl:-top-[60px]">
                         <img class="w-12" src="./img/pp-2.png" alt="">
                     </div>
                     <h1 class="text-xl font-semibold text-headings -mt-6">Cassandra K</h1>
@@ -295,7 +300,7 @@
                         to understand..”</p>
                 </div>
                 <div class="px-4 py-8 text-center relative border border-secondary rounded-md lg:max-w-xs">
-                    <div class="w-full relative -top-1/3 flex justify-center">
+                    <div class="w-full relative -top-1/3 flex justify-center xl:-top-[60px]">
                         <img class="w-12" src="./img/pp-3.png" alt="">
                     </div>
                     <h1 class="text-xl font-semibold text-headings -mt-6">Peter Parker</h1>
@@ -306,7 +311,7 @@
                         to understand..”</p>
                 </div>
                 <div class="px-4 py-8 text-center relative border border-secondary rounded-md lg:max-w-xs">
-                    <div class="w-full relative -top-1/3 flex justify-center">
+                    <div class="w-full relative -top-1/3 flex justify-center xl:-top-[60px]">
                         <img class="w-12" src="./img/pp-4.png" alt="">
                     </div>
                     <h1 class="text-xl font-semibold text-headings -mt-6">Jean Gray</h1>
@@ -337,31 +342,32 @@
         </div>
     </div>
 
-    <footer class="container py-10 px-[30px]">
-        <div class="grid grid-cols-2 gap-y-10 md:gap-x-10">
-            <div>
+    <!-- FOOTER -->
+    <footer class="container py-10 px-[30px] xl:px-[114px]">
+        <div class="grid grid-cols-2 gap-y-10 md:gap-x-10 xl:grid-cols-5">
+            <div class="xl:col-span-2">
                 <div>
-                    <img class="w-20 h-8 md:w-28 md:h-auto" src="./img/logo.png" alt="">
+                    <img class="w-20 h-8 md:w-28 md:h-auto xl:w-[135px]" src="./img/logo.png" alt="">
                 </div>
                 <p class="text-sm mt-4 text-paragraphs md:text-base lg:text-lg">Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit sed do eiusmod tempor
                     incididunt ut labore et dolore.</p>
             </div>
-            <div class="flex flex-col gap-2 pl-10 md:col-start-1 md:row-start-2 md:pl-0">
+            <div class="flex flex-col gap-2 pl-10 md:col-start-1 md:row-start-2 md:pl-0 xl:col-start-3 xl:row-start-1">
                 <h1 class="text-xl font-bold md:text-2xl">Company</h1>
                 <a class="block text-sm hover:underline md:text-base" href="#">Home</a>
                 <a class="block text-sm hover:underline md:text-base" href="#">Blogs</a>
                 <a class="block text-sm hover:underline md:text-base" href="#">Careers</a>
                 <a class="block text-sm hover:underline md:text-base" href="#">Portfolios</a>
             </div>
-            <div class="flex flex-col gap-2 pl-10 col-start-2 md:row-start-2 md:pl-0">
+            <div class="flex flex-col gap-2 pl-10 col-start-2 md:row-start-2 md:pl-0 xl:col-start-4 xl:row-start-1">
                 <h1 class="text-xl font-bold md:text-2xl">Links</h1>
                 <a class="block text-sm hover:underline md:text-base" href="#">Privacy & Policy</a>
                 <a class="block text-sm hover:underline md:text-base" href="#">Github</a>
                 <a class="block text-sm hover:underline md:text-base" href="#">Supports</a>
                 <a class="block text-sm hover:underline md:text-base" href="#">FAQs</a>
             </div>
-            <div class="col-start-1 row-start-2 md:row-start-1 md:col-start-2">
+            <div class="col-start-1 row-start-2 md:row-start-1 md:col-start-2 xl:col-start-5 xl:row-start-1">
                 <h1 class="text-xl font-bold md:text-2xl">Contact</h1>
                 <div class="flex items-center gap-2 mt-2">
                     <img class="w-5" src="./img/TelephoneFill.png" alt="icon">
