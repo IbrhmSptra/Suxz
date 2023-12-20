@@ -13,6 +13,8 @@ This online course platform features a captivating hero section with an illustra
 - 100% Responsive
 - Cross platform
 
+## Link Demo
+https://suxz-company.vercel.app/
 
 ## Tech Stack
 
